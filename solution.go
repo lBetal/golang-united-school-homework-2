@@ -10,6 +10,12 @@ import "math"
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 
+const (
+	SidesTriangle = 3
+	SidesSquare   = 4
+	SidesCircle   = 0
+)
+
 type numInt int
 
 func CalcSquare(sideLen float64, sidesNum numInt) float64 {
